@@ -25,6 +25,9 @@ This Executor is used When you want to maintain a constant number of iterations 
 This Executor is used when you need your tests to not be affected by the system-under-test's performance, and would like to ramp the number of iterations up or down during specific periods of time.
 # Externally controlled
 This Executor is used when you want to control the number of VUs while the test is running.note:-this is the only executor that is not supported in k6 cloud, it can only be used locally with k6 run.
+# For better understanding follow this link
+https://blog.knoldus.com/scenarios-and-executors-in-grafana-k6a-quick-overview/
+
 
 
 
